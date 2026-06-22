@@ -1,0 +1,20 @@
+{
+    "name": "pick/helper-utils",
+    "description": "A custom PHP helper utility package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pick"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pick\\HelperUtils\\": "src/"
+        }
+    }
+}
