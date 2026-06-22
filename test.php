@@ -36,7 +36,7 @@ if (!$mailer->send('target@example.com', 'Test Subject', 'Body')) {
  */
 function send_email_example($email, $code, $msg)
 {
-    // 1. 模拟短信状态与模板逻辑
+    // 1. 模拟短信状态与模板逻辑。
     // if (smsStatus($code) == 0) {
     //     return reSmsCode('001');
     // }
@@ -85,8 +85,6 @@ function send_email_example($email, $code, $msg)
     // );
     // Db::name('LcEmailList')->insert($data);
     // ...
-    
+
     return $recode;
 }
-
-
